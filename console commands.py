@@ -12,8 +12,8 @@ author2 = Author.objects.create(user=user2, rating=0)
 
 # Добавление категорий
 category1 = Category.objects.create(name='Актуальное')
-category2 = Category.objects.create(name='Смешное')
-category3 = Category.objects.create(name='Не смешное')
+category2 = Category.objects.create(name='Политика')
+category3 = Category.objects.create(name='Спорт')
 category4 = Category.objects.create(name='Разное')
 
 # Создание статей и новости
